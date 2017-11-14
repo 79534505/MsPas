@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.content{
+    width: 1024px;
+    height: 100%;
+    background: aliceblue;
+    margin: 0 auto;
+    position: relative;
+}
+.game_frame{
+    width: 640px;
+    height: 480px;
+    margin: auto;
+    padding-right: 57px;
+}
+.score_list{
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 20px;
+    width: 200px;
+    height: 290px;
+    background: ghostwhite;
+    border: 2px solid  black;
+}
+.score_list p{
+    text-align: center;
+}
+.score_list ul li div{
+    text-align: center;
+    width: 33%;
+    float: left;
+    margin-top: 3px;
+}
+
+.userinfo{
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    margin-left: 800px;
+    margin-top: -456px;
+    background: ghostwhite;
+    border: 2px solid  black;
+}
+.userinfo p{
+    text-align: center;
+}
+.userinfo ul li div{
+    text-align: left;
+    width: 50%;
+    float: left;
+    margin-top: 8px;
+}
+.game_record{
+    width: 200px;
+    height: 268px;
+    margin-left: 800px;
+    margin-top: -272px;
+    background: ghostwhite;
+    border: 2px solid black;
+}
+.game_record p{
+    text-align: center;
+}
+.game_record ul li div{
+    text-align: left;
+    display: inline;
+    float: left;
+    margin-top: 8px;
+}
+td{
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px 2px;
+    font-size: 12px;
+}
+
+.game_record ul li div:nth-child(1),.game_record ul li div:nth-child(3){
+    width: 20%;
+}
+.game_record ul li div:nth-child(2){
+    width: 60%;
+}
+.content_wrap{
+    position: absolute;top: 50%;margin-top: -290px;
+}
+table{
+    width: 100%;
+}
